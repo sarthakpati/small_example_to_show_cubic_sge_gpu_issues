@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    for i in range(11):
+    for i in range(10):
         jobname = "gpuCheck_" + args.gputype + "_" + str(i)
         
         command = (
