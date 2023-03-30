@@ -53,7 +53,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     for i in range(11):
-        jobname = "gpuCheck_" + str(i)
+        jobname = "gpuCheck_" + args.gputype + "_" + str(i)
         
         command = (
             "qsub -N L_"
