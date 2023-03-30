@@ -11,3 +11,7 @@ cd small_example_to_show_cubic_sge_gpu_issues
 python submitter.py -e <your_email> # this will launch jobs using `-l gpu`
 python submitter.py -e <your_email> -gpu A40 # this will launch jobs using `-l A40`
 ```
+
+## Status
+
+- 20230330: the jobs ran as expected
